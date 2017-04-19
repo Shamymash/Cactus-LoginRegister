@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA172EDB1EA761CE00BDD81D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172EDA1EA761CE00BDD81D /* AppDelegate.swift */; };
+		FA172EDD1EA761CE00BDD81D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172EDC1EA761CE00BDD81D /* ViewController.swift */; };
+		FA172EE01EA761CE00BDD81D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA172EDE1EA761CE00BDD81D /* Main.storyboard */; };
+		FA172EE21EA761CE00BDD81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA172EE11EA761CE00BDD81D /* Assets.xcassets */; };
+		FA172EE51EA761CE00BDD81D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA172EE31EA761CE00BDD81D /* LaunchScreen.storyboard */; };
+		FA172EF01EA761CE00BDD81D /* Cactus_LoginRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172EEF1EA761CE00BDD81D /* Cactus_LoginRegisterTests.swift */; };
+		FA172EFB1EA761CE00BDD81D /* Cactus_LoginRegisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172EFA1EA761CE00BDD81D /* Cactus_LoginRegisterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA172EEC1EA761CE00BDD81D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA172ECF1EA761CE00BDD81D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA172ED61EA761CE00BDD81D;
+			remoteInfo = "Cactus-LoginRegister";
+		};
+		FA172EF71EA761CE00BDD81D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA172ECF1EA761CE00BDD81D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA172ED61EA761CE00BDD81D;
+			remoteInfo = "Cactus-LoginRegister";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA172ED71EA761CE00BDD81D /* Cactus-LoginRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cactus-LoginRegister.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA172EDA1EA761CE00BDD81D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA172EDC1EA761CE00BDD81D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA172EDF1EA761CE00BDD81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA172EE11EA761CE00BDD81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA172EE41EA761CE00BDD81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA172EE61EA761CE00BDD81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA172EEB1EA761CE00BDD81D /* Cactus-LoginRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cactus-LoginRegisterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA172EEF1EA761CE00BDD81D /* Cactus_LoginRegisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cactus_LoginRegisterTests.swift; sourceTree = "<group>"; };
+		FA172EF11EA761CE00BDD81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA172EF61EA761CE00BDD81D /* Cactus-LoginRegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cactus-LoginRegisterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA172EFA1EA761CE00BDD81D /* Cactus_LoginRegisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cactus_LoginRegisterUITests.swift; sourceTree = "<group>"; };
+		FA172EFC1EA761CE00BDD81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA172ED41EA761CE00BDD81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA172EE81EA761CE00BDD81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA172EF31EA761CE00BDD81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA172ECE1EA761CE00BDD81D = {
+			isa = PBXGroup;
+			children = (
+				FA172ED91EA761CE00BDD81D /* Cactus-LoginRegister */,
+				FA172EEE1EA761CE00BDD81D /* Cactus-LoginRegisterTests */,
+				FA172EF91EA761CE00BDD81D /* Cactus-LoginRegisterUITests */,
+				FA172ED81EA761CE00BDD81D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA172ED81EA761CE00BDD81D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA172ED71EA761CE00BDD81D /* Cactus-LoginRegister.app */,
+				FA172EEB1EA761CE00BDD81D /* Cactus-LoginRegisterTests.xctest */,
+				FA172EF61EA761CE00BDD81D /* Cactus-LoginRegisterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA172ED91EA761CE00BDD81D /* Cactus-LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				FA172EDA1EA761CE00BDD81D /* AppDelegate.swift */,
+				FA172EDC1EA761CE00BDD81D /* ViewController.swift */,
+				FA172EDE1EA761CE00BDD81D /* Main.storyboard */,
+				FA172EE11EA761CE00BDD81D /* Assets.xcassets */,
+				FA172EE31EA761CE00BDD81D /* LaunchScreen.storyboard */,
+				FA172EE61EA761CE00BDD81D /* Info.plist */,
+			);
+			path = "Cactus-LoginRegister";
+			sourceTree = "<group>";
+		};
+		FA172EEE1EA761CE00BDD81D /* Cactus-LoginRegisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA172EEF1EA761CE00BDD81D /* Cactus_LoginRegisterTests.swift */,
+				FA172EF11EA761CE00BDD81D /* Info.plist */,
+			);
+			path = "Cactus-LoginRegisterTests";
+			sourceTree = "<group>";
+		};
+		FA172EF91EA761CE00BDD81D /* Cactus-LoginRegisterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA172EFA1EA761CE00BDD81D /* Cactus_LoginRegisterUITests.swift */,
+				FA172EFC1EA761CE00BDD81D /* Info.plist */,
+			);
+			path = "Cactus-LoginRegisterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA172ED61EA761CE00BDD81D /* Cactus-LoginRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA172EFF1EA761CE00BDD81D /* Build configuration list for PBXNativeTarget "Cactus-LoginRegister" */;
+			buildPhases = (
+				FA172ED31EA761CE00BDD81D /* Sources */,
+				FA172ED41EA761CE00BDD81D /* Frameworks */,
+				FA172ED51EA761CE00BDD81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cactus-LoginRegister";
+			productName = "Cactus-LoginRegister";
+			productReference = FA172ED71EA761CE00BDD81D /* Cactus-LoginRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA172EEA1EA761CE00BDD81D /* Cactus-LoginRegisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA172F021EA761CE00BDD81D /* Build configuration list for PBXNativeTarget "Cactus-LoginRegisterTests" */;
+			buildPhases = (
+				FA172EE71EA761CE00BDD81D /* Sources */,
+				FA172EE81EA761CE00BDD81D /* Frameworks */,
+				FA172EE91EA761CE00BDD81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA172EED1EA761CE00BDD81D /* PBXTargetDependency */,
+			);
+			name = "Cactus-LoginRegisterTests";
+			productName = "Cactus-LoginRegisterTests";
+			productReference = FA172EEB1EA761CE00BDD81D /* Cactus-LoginRegisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA172EF51EA761CE00BDD81D /* Cactus-LoginRegisterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA172F051EA761CE00BDD81D /* Build configuration list for PBXNativeTarget "Cactus-LoginRegisterUITests" */;
+			buildPhases = (
+				FA172EF21EA761CE00BDD81D /* Sources */,
+				FA172EF31EA761CE00BDD81D /* Frameworks */,
+				FA172EF41EA761CE00BDD81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA172EF81EA761CE00BDD81D /* PBXTargetDependency */,
+			);
+			name = "Cactus-LoginRegisterUITests";
+			productName = "Cactus-LoginRegisterUITests";
+			productReference = FA172EF61EA761CE00BDD81D /* Cactus-LoginRegisterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA172ECF1EA761CE00BDD81D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Shamy Mash";
+				TargetAttributes = {
+					FA172ED61EA761CE00BDD81D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					FA172EEA1EA761CE00BDD81D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA172ED61EA761CE00BDD81D;
+					};
+					FA172EF51EA761CE00BDD81D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA172ED61EA761CE00BDD81D;
+					};
+				};
+			};
+			buildConfigurationList = FA172ED21EA761CE00BDD81D /* Build configuration list for PBXProject "Cactus-LoginRegister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA172ECE1EA761CE00BDD81D;
+			productRefGroup = FA172ED81EA761CE00BDD81D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA172ED61EA761CE00BDD81D /* Cactus-LoginRegister */,
+				FA172EEA1EA761CE00BDD81D /* Cactus-LoginRegisterTests */,
+				FA172EF51EA761CE00BDD81D /* Cactus-LoginRegisterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA172ED51EA761CE00BDD81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA172EE51EA761CE00BDD81D /* LaunchScreen.storyboard in Resources */,
+				FA172EE21EA761CE00BDD81D /* Assets.xcassets in Resources */,
+				FA172EE01EA761CE00BDD81D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA172EE91EA761CE00BDD81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA172EF41EA761CE00BDD81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA172ED31EA761CE00BDD81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA172EDD1EA761CE00BDD81D /* ViewController.swift in Sources */,
+				FA172EDB1EA761CE00BDD81D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA172EE71EA761CE00BDD81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA172EF01EA761CE00BDD81D /* Cactus_LoginRegisterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA172EF21EA761CE00BDD81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA172EFB1EA761CE00BDD81D /* Cactus_LoginRegisterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA172EED1EA761CE00BDD81D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA172ED61EA761CE00BDD81D /* Cactus-LoginRegister */;
+			targetProxy = FA172EEC1EA761CE00BDD81D /* PBXContainerItemProxy */;
+		};
+		FA172EF81EA761CE00BDD81D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA172ED61EA761CE00BDD81D /* Cactus-LoginRegister */;
+			targetProxy = FA172EF71EA761CE00BDD81D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA172EDE1EA761CE00BDD81D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA172EDF1EA761CE00BDD81D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA172EE31EA761CE00BDD81D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA172EE41EA761CE00BDD81D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA172EFD1EA761CE00BDD81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA172EFE1EA761CE00BDD81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA172F001EA761CE00BDD81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cactus-LoginRegister/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.Cactus-LoginRegister";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA172F011EA761CE00BDD81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cactus-LoginRegister/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.Cactus-LoginRegister";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA172F031EA761CE00BDD81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cactus-LoginRegisterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.Cactus-LoginRegisterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cactus-LoginRegister.app/Cactus-LoginRegister";
+			};
+			name = Debug;
+		};
+		FA172F041EA761CE00BDD81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cactus-LoginRegisterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.Cactus-LoginRegisterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cactus-LoginRegister.app/Cactus-LoginRegister";
+			};
+			name = Release;
+		};
+		FA172F061EA761CE00BDD81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Cactus-LoginRegisterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.Cactus-LoginRegisterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cactus-LoginRegister";
+			};
+			name = Debug;
+		};
+		FA172F071EA761CE00BDD81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Cactus-LoginRegisterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.Cactus-LoginRegisterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cactus-LoginRegister";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA172ED21EA761CE00BDD81D /* Build configuration list for PBXProject "Cactus-LoginRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA172EFD1EA761CE00BDD81D /* Debug */,
+				FA172EFE1EA761CE00BDD81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA172EFF1EA761CE00BDD81D /* Build configuration list for PBXNativeTarget "Cactus-LoginRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA172F001EA761CE00BDD81D /* Debug */,
+				FA172F011EA761CE00BDD81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA172F021EA761CE00BDD81D /* Build configuration list for PBXNativeTarget "Cactus-LoginRegisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA172F031EA761CE00BDD81D /* Debug */,
+				FA172F041EA761CE00BDD81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA172F051EA761CE00BDD81D /* Build configuration list for PBXNativeTarget "Cactus-LoginRegisterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA172F061EA761CE00BDD81D /* Debug */,
+				FA172F071EA761CE00BDD81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA172ECF1EA761CE00BDD81D /* Project object */;
+}
